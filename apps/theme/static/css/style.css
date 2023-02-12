@@ -1,0 +1,48 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     color: #fff;
+
+}
+ .container { position:relative; }
+.video-background {
+    position:relative;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+
+ .overlay {
+     position:absolute;
+     top:0;
+     left:0;
+     z-index:1;
+ }
+
+a { 
+    color: #00ee04;
+    text-decoration:none;
+
+}
+
+a:hover {  
+    text-decoration:underline;
+
+}
+
+#user {float:right; }
+
+/* Video Background */
+.video-background {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+
