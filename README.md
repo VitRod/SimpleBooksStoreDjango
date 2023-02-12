@@ -7,7 +7,7 @@ Before you run the application you need to create the needed DB tables:
 
      python ./manage.py migrate
 
-Now you can run the development web server:
+Now you can run the development web server on the port 8002:
 
      python ./manage.py runserver 8002
 
