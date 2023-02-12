@@ -1,0 +1,39 @@
+{% load static %}
+
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Video Background -->
+    <video class="video-background" id="video-background" loop muted autoplay>
+        <source src="../static/css/Beach_Sand_Sun1.mp4"></source>
+    </video>
+
+    <div class="overlay">
+        <div id="header">
+            {% if user.is_authenticated %}
+                <div id="user">
+                    Hello {{ user }}, <a href="{% url 'logout' %}">Logout</a>
+                </div>
+            {% endif %}
+            <h1><a href="/">Simple Book Store with Django</a></h1>
+        </div><!-- header -->
+        <div id="content">
+            {% block content %}
+            {% endblock %}
+        </div><!-- content -->
+        <div id="footer">
+        </div>
+    </div><!-- overlay -->
+
+
+</div><!-- container -->
+
+
+</body>
+</html>
