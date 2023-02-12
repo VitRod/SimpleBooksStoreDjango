@@ -5,11 +5,11 @@ https://user-images.githubusercontent.com/26525615/218316720-2970c0c3-c4a8-4f03-
 
 Before you run the application you need to create the needed DB tables:
 
-   python ./manage.py migrate
+     python ./manage.py migrate
 
 Now you can run the development web server:
 
-   python ./manage.py runserver 8002
+     python ./manage.py runserver 8002
 
 To access the applications go to the URL <http://localhost:8002/>
 
