@@ -3,7 +3,7 @@
 https://user-images.githubusercontent.com/26525615/218316720-2970c0c3-c4a8-4f03-b20f-7bec36461979.mp4
 
 
-Before you run the application you need to create the needed DB tables:
+Before you run the application you need to create the DB tables:
 
      python ./manage.py migrate
 
